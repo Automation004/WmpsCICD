@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PurchaseOrderSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PurchaseOrderTest(failed)">
+    <classes>
+      <class name="ZZ_Issues_AutomationTestScripts.TC_01_Purchase_Order_Update">
+        <methods>
+          <include name="PurchaseOrderRelease"/>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="EndReport"/>
+          <include name="suiteSetUp"/>
+          <include name="PurchaseOrderReturn"/>
+          <include name="PurchaseOrderReinitiate"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.TC_01_Purchase_Order_Update -->
+    </classes>
+  </test> <!-- PurchaseOrderTest(failed) -->
+</suite> <!-- Failed suite [PurchaseOrderSuite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [QualityInspection]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ReleseAndReturnTest(failed)">
+    <classes>
+      <class name="ZZ_Issues_AutomationTestScripts.QualityInspectionBatch1update">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="suiteSetUp"/>
+          <include name="Release"/>
+          <include name="EndReport"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.QualityInspectionBatch1update -->
+    </classes>
+  </test> <!-- ReleseAndReturnTest(failed) -->
+</suite> <!-- Failed suite [QualityInspection] -->

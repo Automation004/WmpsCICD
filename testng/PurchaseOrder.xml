@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GoodsIssueSuite" parallel="false">
+	<test name="CreateTest">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.PurchaseOrder">
+				<methods>
+					<include name="Purchase_Order_Entry" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="ReleseAndReturnTest">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.PurchaseOrder">
+				<methods>
+					<include name="PurchaseOrderReturn" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="ReInitiateTest">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.PurchaseOrder">
+				<methods>
+					<include name="PurchaseOrderReinitiate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="ReleseAndReturnAgainTest">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.PurchaseOrder">
+				<methods>
+					<include name="PurchaseOrderRelease" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

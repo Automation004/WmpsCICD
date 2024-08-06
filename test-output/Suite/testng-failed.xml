@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_Release_update">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="suiteSetUp"/>
+          <include name="EndReport"/>
+          <include name="GoodsIssueRelease"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_Release_update -->
+      <class name="ZZ_Issues_AutomationTestScripts.zzTC_01_Quality_Inspection_Search">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="suiteSetUp"/>
+          <include name="EndReport"/>
+          <include name="Quality_Inspection"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.zzTC_01_Quality_Inspection_Search -->
+      <class name="ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update">
+        <methods>
+          <include name="batchOrderRelease"/>
+          <include name="batchOrderReInitiate"/>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="suiteSetUp"/>
+          <include name="EndReport"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update -->
+      <class name="ZZ_Issues_AutomationTestScripts.QualityInspection1Batch1updated">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="QualityInspectionCreate"/>
+          <include name="getResult"/>
+          <include name="EndReport"/>
+          <include name="suiteSetUp"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.QualityInspection1Batch1updated -->
+      <class name="ZZ_Issues_AutomationTestScripts.GoodsdsIssue_agnstMaterialRqst_Issue_Updated2">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="suiteSetUp"/>
+          <include name="EndReport"/>
+          <include name="ReleseAndReturnAgain"/>
+          <include name="ReInitiate"/>
+          <include name="ReleseAndReturn"/>
+          <include name="Create"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.GoodsdsIssue_agnstMaterialRqst_Issue_Updated2 -->
+      <class name="ZZ_Issues_AutomationTestScripts.GoodReciptWithPORelease01Container">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="goodsReceiptWithPoCreate"/>
+          <include name="suiteSetUp"/>
+          <include name="EndReport"/>
+          <include name="goodsReceiptWithPoRelease"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.GoodReciptWithPORelease01Container -->
+      <class name="ZZ_Issues_AutomationTestScripts.PurchaseOrder">
+        <methods>
+          <include name="PurchaseOrderReturn"/>
+          <include name="getReportObject"/>
+          <include name="PurchaseOrderRelease"/>
+          <include name="getResult"/>
+          <include name="suiteSetUp"/>
+          <include name="EndReport"/>
+          <include name="Purchase_Order_Entry"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.PurchaseOrder -->
+      <class name="ZZ_Issues_AutomationTestScripts.ExcleUpdateBOM_SFG_Add_2RM_No_KSM_update">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="suiteSetUp"/>
+          <include name="EndReport"/>
+          <include name="BillOfMaterialCreate"/>
+          <include name="BillOfMaterialRelease"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.ExcleUpdateBOM_SFG_Add_2RM_No_KSM_update -->
+      <class name="ZZ_Issues_AutomationTestScripts.GoodsIssue_agnstMaterialRqst_Issue_Updated">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="CreateForIssuence"/>
+          <include name="getResult"/>
+          <include name="suiteSetUp"/>
+          <include name="EndReport"/>
+          <include name="ReleseAndReturn"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.GoodsIssue_agnstMaterialRqst_Issue_Updated -->
+      <class name="ZZ_Issues_AutomationTestScripts.Material_Inventory_Reports">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="Create"/>
+          <include name="EndReport"/>
+          <include name="suiteSetUp"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.Material_Inventory_Reports -->
+      <class name="ZZ_Issues_AutomationTestScripts.TC_07_02_Goods_Issue_01_SFP_01_2x1_update">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="suiteSetUp"/>
+          <include name="EndReport"/>
+          <include name="goodsIssueRqstRelease"/>
+          <include name="Ordertypr"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.TC_07_02_Goods_Issue_01_SFP_01_2x1_update -->
+      <class name="ZZ_Issues_AutomationTestScripts.TC_05_02_BOM_SFG_Add_2RM_No_KSM_update">
+        <methods>
+          <include name="BillOfMaterialCreate"/>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="BillOfMaterialRelease"/>
+          <include name="suiteSetUp"/>
+          <include name="EndReport"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.TC_05_02_BOM_SFG_Add_2RM_No_KSM_update -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

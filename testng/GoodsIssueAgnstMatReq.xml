@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--Batch Number changable everytime-->
+<suite name="GoodsIssueSuite" parallel="false">
+	<test name="CreateTest">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.GoodsdsIssue_agnstMaterialRqst_Issue_Updated2">
+				<methods>
+					<include name="Create" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="ReleseAndReturnTest">
+		<parameter name="action" value="Action_1" />
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.GoodsdsIssue_agnstMaterialRqst_Issue_Updated2">
+				<methods>
+					<include name="ReleseAndReturn" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="ReInitiateTest">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.GoodsdsIssue_agnstMaterialRqst_Issue_Updated2">
+				<methods>
+					<include name="ReInitiate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="ReleseAndReturnAgainTest">
+		<parameter name="action" value="Action_2" />
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.GoodsdsIssue_agnstMaterialRqst_Issue_Updated2">
+				<methods>
+					<include name="ReleseAndReturnAgain" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

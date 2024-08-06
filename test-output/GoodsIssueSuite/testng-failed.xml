@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GoodsIssueSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ReleseAndReturnTest(failed)">
+    <classes>
+      <class name="ZZ_Issues_AutomationTestScripts.GoodReciptWithPO01Container">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="suiteSetUp"/>
+          <include name="EndReport"/>
+          <include name="goodsReceiptWithPoRelease"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.GoodReciptWithPO01Container -->
+    </classes>
+  </test> <!-- ReleseAndReturnTest(failed) -->
+</suite> <!-- Failed suite [GoodsIssueSuite] -->

@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QualityInspection" parallel="false">
+	<test name="CreateTest">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.QualityInspection1Batch1updated">
+				<methods>
+					<include name="QualityInspectionCreate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="ReleseAndReturnTest">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.QualityInspectionBatch1update">
+				<methods>
+					<include name="Release" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+

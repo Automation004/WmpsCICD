@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BatchOrder" parallel="false">
+	<test name="BatchOrder">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update">
+				<methods>
+					<include name="batchOrder" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="BatchOrderRelease">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update">
+				<methods>
+					<include name="batchOrderRelease" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="BatchOrderReInitiate">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update">
+				<methods>
+					<include name="batchOrderReInitiate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="BatchOrderRelease2">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update">
+				<methods>
+					<include name="batchOrderRelease" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

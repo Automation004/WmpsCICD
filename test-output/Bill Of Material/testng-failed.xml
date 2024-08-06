@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bill Of Material]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Release(failed)">
+    <classes>
+      <class name="ZZ_Issues_AutomationTestScripts.TC_05_02_BOM_SFG_Add_2RM_No_KSM_update">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="BillOfMaterialRelease"/>
+          <include name="EndReport"/>
+          <include name="suiteSetUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.TC_05_02_BOM_SFG_Add_2RM_No_KSM_update -->
+    </classes>
+  </test> <!-- Release(failed) -->
+</suite> <!-- Failed suite [Bill Of Material] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="com_1.Master_Creation_Updated.TC_01_Material_Master_RawMaterial" />
+			<class name="com_4.Master_Release_Updated.TC_01_Material_Master_Release" />
+			
+			<class name="com_1.Master_Creation_Updated.TC_02_Vendor_Master_Manufacturer" />
+			<class name="com_4.Master_Release_Updated.TC_02_Vendor_Master_Release_Manuf" />
+			
+			<class name="com_1.Master_Creation_Updated.TC_03_Vendor_Master_Supplier" />
+			<class name="com_4.Master_Release_Updated.TC_02_Vendor_Master_Release_Supplier" />
+			
+			<class name="com_1.Master_Creation_Updated.TC_04_Manufacturer_Assignment_01" />
+			<class name="com_4.Master_Release_Updated.TC_03_Manufacturer_Assignment_Release" />
+			
+			<class name="com_1.Master_Creation_Updated.TC_05_Supplier_Assignment" />
+			<class name="com_4.Master_Release_Updated.TC_04_Supplier_Assignment_Release" />	
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

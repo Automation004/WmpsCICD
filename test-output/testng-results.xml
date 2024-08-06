@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-05T15:17:10 IST" name="BatchOrder" finished-at="2024-08-05T15:18:24 IST" duration-ms="73845">
+    <groups>
+    </groups>
+    <test started-at="2024-08-05T15:17:10 IST" name="BatchOrderReInitiate" finished-at="2024-08-05T15:17:42 IST" duration-ms="31727">
+      <class name="ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update">
+        <test-method is-config="true" signature="getReportObject()[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@c4ed84]" started-at="2024-08-05T15:17:10 IST" name="getReportObject" finished-at="2024-08-05T15:17:10 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReportObject -->
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@c4ed84]" started-at="2024-08-05T15:17:10 IST" name="suiteSetUp" finished-at="2024-08-05T15:17:15 IST" duration-ms="4951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@c4ed84]" started-at="2024-08-05T15:17:15 IST" name="setUp" finished-at="2024-08-05T15:17:15 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="batchOrderReInitiate()[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@c4ed84]" started-at="2024-08-05T15:17:15 IST" name="batchOrderReInitiate" finished-at="2024-08-05T15:17:41 IST" duration-ms="26181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchOrderReInitiate -->
+        <test-method is-config="true" signature="EndReport()[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@c4ed84]" started-at="2024-08-05T15:17:41 IST" name="EndReport" finished-at="2024-08-05T15:17:42 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReport -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@c4ed84]" started-at="2024-08-05T15:17:42 IST" name="getResult" finished-at="2024-08-05T15:17:42 IST" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=batchOrderReInitiate status=SUCCESS method=TC_O1_BatchOrder_update.batchOrderReInitiate()[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@c4ed84] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update -->
+    </test> <!-- BatchOrderReInitiate -->
+    <test started-at="2024-08-05T15:17:42 IST" name="BatchOrderRelease2" finished-at="2024-08-05T15:18:24 IST" duration-ms="42089">
+      <class name="ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update">
+        <test-method is-config="true" signature="getReportObject()[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@2f17e30d]" started-at="2024-08-05T15:17:42 IST" name="getReportObject" finished-at="2024-08-05T15:17:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReportObject -->
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@2f17e30d]" started-at="2024-08-05T15:17:42 IST" name="suiteSetUp" finished-at="2024-08-05T15:17:46 IST" duration-ms="3671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@2f17e30d]" started-at="2024-08-05T15:17:46 IST" name="setUp" finished-at="2024-08-05T15:17:46 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="batchOrderRelease()[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@2f17e30d]" started-at="2024-08-05T15:17:46 IST" name="batchOrderRelease" finished-at="2024-08-05T15:18:24 IST" duration-ms="38232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchOrderRelease -->
+        <test-method is-config="true" signature="EndReport()[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@2f17e30d]" started-at="2024-08-05T15:18:24 IST" name="EndReport" finished-at="2024-08-05T15:18:24 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReport -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@2f17e30d]" started-at="2024-08-05T15:18:24 IST" name="getResult" finished-at="2024-08-05T15:18:24 IST" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=batchOrderRelease status=SUCCESS method=TC_O1_BatchOrder_update.batchOrderRelease()[pri:0, instance:ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update@2f17e30d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- ZZ_Issues_AutomationTestScripts.TC_O1_BatchOrder_update -->
+    </test> <!-- BatchOrderRelease2 -->
+  </suite> <!-- BatchOrder -->
+</testng-results>

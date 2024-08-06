@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GoodsIssue_agnstMaterialRqst_Issue_Updated_Test_1(failed)">
+    <parameter name="action" value="Action_1"/>
+    <classes>
+      <class name="ZZ_Issues_AutomationTestScripts.GoodsdsIssue_agnstMaterialRqst_Issue_Updated2">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="ReleseAndReturnAgain"/>
+          <include name="suiteSetUp"/>
+          <include name="EndReport"/>
+          <include name="ReInitiate"/>
+          <include name="ReleseAndReturn"/>
+          <include name="Create"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.GoodsdsIssue_agnstMaterialRqst_Issue_Updated2 -->
+    </classes>
+  </test> <!-- GoodsIssue_agnstMaterialRqst_Issue_Updated_Test_1(failed) -->
+  <test thread-count="5" name="GoodsIssue_agnstMaterialRqst_Issue_Updated_Test_2(failed)">
+    <classes>
+      <class name="ZZ_Issues_AutomationTestScripts.GoodsdsIssue_agnstMaterialRqst_Issue_Updated2">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="suiteSetUp"/>
+          <include name="ReleseAndReturnAgain"/>
+          <include name="EndReport"/>
+          <include name="ReInitiate"/>
+          <include name="ReleseAndReturn"/>
+          <include name="Create"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.GoodsdsIssue_agnstMaterialRqst_Issue_Updated2 -->
+    </classes>
+  </test> <!-- GoodsIssue_agnstMaterialRqst_Issue_Updated_Test_2(failed) -->
+  <test thread-count="5" name="GoodsIssue_agnstMaterialRqst_Issue_Updated_Test_3(failed)">
+    <parameter name="action" value="Action_2"/>
+    <classes>
+      <class name="ZZ_Issues_AutomationTestScripts.GoodsdsIssue_agnstMaterialRqst_Issue_Updated2">
+        <methods>
+          <include name="getReportObject"/>
+          <include name="getResult"/>
+          <include name="ReleseAndReturnAgain"/>
+          <include name="suiteSetUp"/>
+          <include name="EndReport"/>
+          <include name="ReInitiate"/>
+          <include name="ReleseAndReturn"/>
+          <include name="Create"/>
+        </methods>
+      </class> <!-- ZZ_Issues_AutomationTestScripts.GoodsdsIssue_agnstMaterialRqst_Issue_Updated2 -->
+    </classes>
+  </test> <!-- GoodsIssue_agnstMaterialRqst_Issue_Updated_Test_3(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

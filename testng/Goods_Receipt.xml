@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GoodsIssueSuite" parallel="false">
+	<test name="CreateTest">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.GoodReciptWithPO01Container">
+				<methods>
+					<include name="goodsReceiptWithPoCreate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="ReleseAndReturnTest">
+		<classes>
+			<class name="ZZ_Issues_AutomationTestScripts.GoodReciptWithPO01Container">
+				<methods>
+					<include name="goodsReceiptWithPoRelease" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite><!--Batch Number - RML395240001-->
